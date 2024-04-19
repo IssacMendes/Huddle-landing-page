@@ -1,0 +1,86 @@
+body {
+    font-family:'Open Sans';
+    color: #fff;
+}
+
+.container {
+    min-height: 100vh;
+    background: url(../../images/bg-desktop.svg)   center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    padding: 60px;
+    background-size: cover;
+}
+
+.container .imagem img {
+    padding: 20px;
+}
+
+.imagem {
+    display: flex;
+    padding-top: 70px;
+    width: 100%;
+    justify-content: center;
+}
+
+.imagem .info {
+    padding-top: 50px;
+    max-width: 550px;
+    margin-left: 50px;
+}
+
+.imagem .info h1 {
+    font-size: 38px;
+    font-weight: 600px;
+}
+
+.imagem .info p {
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 400px;
+    line-height: 1.6;
+}
+
+.imagem .info button {
+    border: none;
+    width: 200px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    color: hsl(257, 40%, 49%);
+    font-size: 17px;
+}
+
+.icons {
+    display: flex;
+    font-size: 22px;
+    gap: 20px;
+
+}
+
+
+.icons li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.6px solid;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+}
+
+.icons li a:hover {
+    color: hsl(300, 69%, 71%);
+
+}
+
+.imagem .info button:hover {
+    background-color: hsl(300, 69%, 71%);
+}
